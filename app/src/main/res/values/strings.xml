@@ -5,6 +5,11 @@
     <string name="title_activity_signup">Registrarse</string>
     <string name="title_activity_main">Nutritional App</string>
     <string name="title_activity_recetas">Recetas</string>
+    <string name="title_activity_desayuno">Desayunos</string>
+    <string name="title_activity_comida">Comidas</string>
+    <string name="title_activity_cena">Cenas</string>
+    <string name="title_activity_comerbien">Importancia de comer saludable</string>
+    <string name="title_activity_noticias">Noticas</string>
 
     <string name="prompt_username">Nombre de usuario</string>
     <string name="prompt_email">Correo electrónico</string>

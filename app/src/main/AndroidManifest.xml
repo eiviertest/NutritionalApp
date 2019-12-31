@@ -26,18 +26,25 @@
         <activity android:name=".recetasDesayuno.Desayuno03" />
         <activity android:name=".recetasDesayuno.Desayuno02" />
         <activity android:name=".recetasDesayuno.Desayuno01" />
-        <activity android:name=".recetasDesayuno.Receta03" />
-        <activity android:name=".recetasDesayuno.Receta02" />
-        <activity android:name=".recetasDesayuno.Receta01" />
-        <activity android:name=".dieta.Cena" />
-        <activity android:name=".dieta.Comida" />
-        <activity android:name=".dieta.Desayuno" />
+        <activity
+            android:name=".dieta.Cena"
+            android:label="@string/title_activity_cena" />
+        <activity
+            android:name=".dieta.Comida"
+            android:label="@string/title_activity_comida" />
+        <activity
+            android:name=".dieta.Desayuno"
+            android:label="@string/title_activity_desayuno" />
         <activity
             android:name=".options.Recetas"
             android:label="@string/title_activity_recetas"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".options.Noticias" />
-        <activity android:name=".options.ImportanciaComerBien" />
+        <activity
+            android:name=".options.Noticias"
+            android:label="@string/title_activity_noticias" />
+        <activity
+            android:name=".options.ImportanciaComerBien"
+            android:label="@string/title_activity_comerbien" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" />
