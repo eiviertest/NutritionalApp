@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NutritionalApp</string>
+
+    <string name="title_activity_login">Ingresar</string>
+    <string name="title_activity_signup">Registrarse</string>
+    <string name="title_activity_main">Nutritional App</string>
+    <string name="title_activity_recetas">Recetas</string>
+
+    <string name="prompt_username">Nombre de usuario</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_confirm_password">Confirmar contraseña</string>
+    <string name="prompt_not_member">¿No tiene una cuenta? Crear una</string>
+
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_up">Registrarse</string>
+    <string name="action_desayuno">Desayuno</string>
+    <string name="action_comida">Comida</string>
+    <string name="action_cena">Cena</string>
+    <string name="action_principal">Principal</string>
+
+    <string name="welcome">"Bienvenido (a) !"</string>
+
+    <string name="invalid_username">Nombre de usuario inválido</string>
+    <string name="invalid_password">La contraseña debe tener más de 5 caracteres</string>
+    <string name="login_failed">"Datos incorrectos"</string>
+    <string name="error_message_name">Ingrese nombre completo</string>
+    <string name="error_message_email">Ingrese un correo correcto</string>
+    <string name="error_message_password">Contraseña incorrecta</string>
+    <string name="error_message_nopassword">Ingrese la contraseña</string>
+    <string name="error_password_match">Las contraseñas no coinciden</string>
+    <string name="error_email_exists">Este correo ya existe</string>
+    <string name="error_valid_email_password">Correo o contraseña erroneos</string>
+
+    <string name="success_message">Registro exitoso</string>
+
+    <!-- Titulo de la receta-->
+    <string name="nombre_receta">Nombre de la receta</string>
+    <string name="duracion_receta">Tiempo de preparación</string>
+    <string name="dificultad_receta">Dificultad: </string>
+    <string name="ingredientes_receta">Ingredientes: </string>
+    <string name="procedimiento_receta">Procedimiento: </string>
+    <string name="porciones_receta">Porciones medianas: </string>
+
+    <string name="comerbien">Hoy en día nadie escapa a la importancia de una buena
+        alimentación para mantener un buen estado de forma física que también redundará
+        en un mejor estado mental y emocional y es que, comer bien es vivir mejor.</string>
+
+</resources>

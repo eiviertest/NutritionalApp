@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eivier.nutritionalapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".recetasCena.Cena05"></activity>
+        <activity android:name=".recetasCena.Cena04" />
+        <activity android:name=".recetasCena.Cena03" />
+        <activity android:name=".recetasCena.Cena02" />
+        <activity android:name=".recetasCena.Cena01" />
+        <activity android:name=".recetasComida.Comida05" />
+        <activity android:name=".recetasComida.Comida04" />
+        <activity android:name=".recetasComida.Comida03" />
+        <activity android:name=".recetasComida.Comida02" />
+        <activity android:name=".recetasComida.Comida01" />
+        <activity android:name=".recetasDesayuno.Desayuno05" />
+        <activity android:name=".recetasDesayuno.Desayuno04" />
+        <activity android:name=".recetasDesayuno.Desayuno03" />
+        <activity android:name=".recetasDesayuno.Desayuno02" />
+        <activity android:name=".recetasDesayuno.Desayuno01" />
+        <activity android:name=".recetasDesayuno.Receta03" />
+        <activity android:name=".recetasDesayuno.Receta02" />
+        <activity android:name=".recetasDesayuno.Receta01" />
+        <activity android:name=".dieta.Cena" />
+        <activity android:name=".dieta.Comida" />
+        <activity android:name=".dieta.Desayuno" />
+        <activity
+            android:name=".options.Recetas"
+            android:label="@string/title_activity_recetas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".options.Noticias" />
+        <activity android:name=".options.ImportanciaComerBien" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_signup" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

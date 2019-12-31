@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".options.Recetas"
+    tools:showIn="@layout/activity_recetas">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="bottom|clip_horizontal|center|clip_vertical|start|right|top|left"
+            android:paddingBottom="25dp"
+            android:text="@string/comerbien"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imgPlatoSaludable"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/platosaludable" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnDesayuno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_desayuno" />
+
+            <Button
+                android:id="@+id/btnComida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_comida" />
+
+            <Button
+                android:id="@+id/btnCena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_cena" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_btn_back" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eivier.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_desayuno"
+        android:orderInCategory="100"
+        android:title="@string/action_desayuno" />
+    <item
+        android:id="@+id/action_comida"
+        android:orderInCategory="100"
+        android:title="@string/action_comida" />
+    <item
+        android:id="@+id/action_cena"
+        android:orderInCategory="100"
+        android:title="@string/action_cena" />
+    <item
+        android:id="@+id/action_principal"
+        android:orderInCategory="200"
+        android:title="@string/action_principal" />
+</menu>
